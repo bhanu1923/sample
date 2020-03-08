@@ -1,4 +1,4 @@
 FROM tomcat:8-jre8
 
-COPY target/*.war /usr/local/tomcat/webapps
+COPY /var/lib/jenkins/workspace/practice/target/*.war /usr/local/tomcat/webapps
 
