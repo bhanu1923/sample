@@ -1,3 +1,4 @@
 FROM tomcat:8-jre8
 
-COPY target/*.jar /opt/tomcat/webapps
+COPY target/*.jar /usr/local/tomcat/webapps
+
